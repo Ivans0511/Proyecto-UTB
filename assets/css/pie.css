@@ -63,6 +63,10 @@ footer {
 .footerlink{
     justify-content: center; /* Centra los iconos horizontalmente */
     align-items: center; /* Centra los iconos verticalmente */
+    display: flex; /* Alinea los elementos hijos en una fila */
+    flex-direction: column; /* Cambia la dirección a columna */
+    padding: 0;
+    margin: 0;
     }
 .footerlink a {
     text-decoration: none; /* Opcional: elimina el subrayado de los enlaces */
@@ -204,6 +208,7 @@ footer {
 @media (max-width: 500px) {
     .footerfilas{
         text-align: center;
+        align-items: center;
     }
     .footerlink{
         width: 100%;
